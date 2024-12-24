@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
-    </Grid>
+    <TabPanel>
+      <TabItem Header="Tab 1">
+        <TextBlock Text="Content 1" />
+      </TabItem>
+      <TabItem Header="Tab 2">
+        <TextBlock Text="Content 2" />
+      </TabItem>
+      <TabItem Header="Tab 3">
+        <TextBlock Text="Content 3" />
+      </TabItem>
+    </TabPanel>
+      
+  </Grid>
 </Window>
